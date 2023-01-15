@@ -2,13 +2,13 @@ package tdd;
 
 
 
-public class AccountTwo() {
+public class AccountTwo {
     private double amt;
     private double balance;
     private int pin;
     private int cash;
 
-    public AccountTwo(double deposit, int pin) {
+    public AccountTwo(double balance, int pin) {
         this.pin = pin;
         this.balance = balance;
 
@@ -28,7 +28,7 @@ public class AccountTwo() {
 
     }
 
-    public void Depositor(String name) {
+    public void depositor(double cash , int pin) {
         if (pin == pin) {
 
             balance = balance + cash;

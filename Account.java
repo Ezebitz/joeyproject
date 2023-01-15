@@ -6,6 +6,6 @@ public class Account {
         this.name = name;
     }
 
-    Account account = new Account();
+//    Account account = new Account();
 
 }
